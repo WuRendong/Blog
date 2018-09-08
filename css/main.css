@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5dffff;
+  background: #8c12d9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2939,6 +2939,18 @@ ul.breadcrumb li+li:last-child {
 }
 @media (max-width: 767px) {
   .post-body {
-    text-align: justify;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .post-body {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 900px) {
+  .content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
