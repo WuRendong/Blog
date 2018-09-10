@@ -123,7 +123,7 @@
 <meta property="og:image" content="http://yoursite.com/images/layers_model.png">
 <meta property="og:image" content="http://yoursite.com/images/closed_layers.png">
 <meta property="og:image" content="http://yoursite.com/images/open_layers.png">
-<meta property="og:updated_time" content="2018-09-10T14:59:17.716Z">
+<meta property="og:updated_time" content="2018-09-10T15:54:00.018Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="软件架构模式">
 <meta name="twitter:description" content="摘自https://towardsdatascience.com/software-architecture-patterns-98043af8028 下图为大多数的企业级的应用都会使用的最通用的架构模式，也被称为N层模式，假设有N个层数。这是Java EE应用的实际模式。 层的示例场景 表示层该层是web页面，UI形式和终端用户交互API的表示。 业务层可访问性，安全性和认证背后的逻辑都发生在这">
@@ -403,7 +403,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-09-10 22:59:17" itemprop="dateModified" datetime="2018-09-10T22:59:17+08:00">2018-09-10</time>
+                <time title="修改时间：2018-09-10 23:54:00" itemprop="dateModified" datetime="2018-09-10T23:54:00+08:00">2018-09-10</time>
               
             
           </span>
@@ -477,7 +477,7 @@
       
         <p>摘自<a href="https://towardsdatascience.com/software-architecture-patterns-98043af8028" target="_blank" rel="noopener">https://towardsdatascience.com/software-architecture-patterns-98043af8028</a></p>
 <p>下图为大多数的企业级的应用都会使用的最通用的架构模式，也被称为N层模式，假设有N个层数。这是Java EE应用的实际模式。</p>
-<h3 id="层的示例场景"><a href="#层的示例场景" class="headerlink" title="层的示例场景"></a>层的示例场景</h3><p><img src="/images/layers_model.png" alt="Sample Image Added via Markdown"></p>
+<h3 id="层的示例场景"><a href="#层的示例场景" class="headerlink" title="层的示例场景"></a>层的示例场景</h3><p><img src="/images/layers_model.png" alt="layer model"></p>
 <h4 id="表示层"><a href="#表示层" class="headerlink" title="表示层"></a>表示层</h4><p>该层是web页面，UI形式和终端用户交互API的表示。</p>
 <h4 id="业务层"><a href="#业务层" class="headerlink" title="业务层"></a>业务层</h4><p>可访问性，安全性和认证背后的逻辑都发生在这一层。这包含了ESB（Enterprise Service Buses，企业服务总线），中间件和其他请求拦截器来执行验证。</p>
 <h4 id="持久层"><a href="#持久层" class="headerlink" title="持久层"></a>持久层</h4><p>这层是数据的表示层。这包括DAO（Data Access Object，数据访问对象）表示、ORM（Object Relational Mappings，对象关系映射）和其他在应用程序级别表示持久数据的模式。在更有意义的单词中，演示了RAM中的持久数据。它通常停留在下层的磁盘上。</p>
@@ -488,9 +488,9 @@
 <p><font size="4">“组件强制关注关注点的分离”</font></p>
 </blockquote>
 <h3 id="关键概念"><a href="#关键概念" class="headerlink" title="关键概念"></a>关键概念</h3><h4 id="封闭层"><a href="#封闭层" class="headerlink" title="封闭层"></a>封闭层</h4><p>下图演示了隔离层的概念，该概念以更严格的方式将每个层分开，只允许顺序通过层而不允许旁路。如图所示，这加强了层间的更好耦合，使得整个系统对变化更为可行。</p>
-<p><img src="/images/closed_layers.png" alt="Sample Image Added via Markdown"></p>
+<p><img src="/images/closed_layers.png" alt="closed layers"></p>
 <h4 id="开放层"><a href="#开放层" class="headerlink" title="开放层"></a>开放层</h4><p>开放层允许系统绕过层并击中下层。这是在任务关键系统中，延迟可能花费很多。通常，层意味着通信开销。因此，有时绕过层并直接从正确的层中寻找数据是合理的。</p>
-<p><img src="/images/open_layers.png" alt="Sample Image Added via Markdown"></p>
+<p><img src="/images/open_layers.png" alt="open layers"></p>
 <h3 id="模式分析"><a href="#模式分析" class="headerlink" title="模式分析"></a>模式分析</h3><p>分层模式的采用可能误导并导致称为“架构陷阱反模式”的反模式，该反模式演示了具有不执行任何逻辑的层，但增加了通信开销。因此，这些层必须以执行补偿整个系统的通信开销和可维护性的特定任务的方式设计。</p>
 <h4 id="模式可测性"><a href="#模式可测性" class="headerlink" title="模式可测性"></a>模式可测性</h4><p>这个由于分层性质会比较突出。每个层都可以通过传递哑消息和具有虚拟接口来演示即时层。</p>
 <h4 id="性能和可伸缩性"><a href="#性能和可伸缩性" class="headerlink" title="性能和可伸缩性"></a>性能和可伸缩性</h4><p>这个由于通信开销会相对弱些。这可能需要转换消息类型等。在可伸缩性方面，添加更多的层不是一个选择，模式不会无限放大。</p>
@@ -543,6 +543,22 @@
       
       
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/09/10/android-mind-note/" rel="prev" title="Android思维导图">
+                Android思维导图 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -620,7 +636,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -635,7 +651,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
                   
                 </div>
@@ -650,7 +668,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   
                 </div>
