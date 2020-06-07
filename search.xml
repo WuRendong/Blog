@@ -313,4 +313,89 @@ python transform_video.py --in-path path/to/input/vid.mp4 \
         <tag>Machine Learning</tag>
       </tags>
   </entry>
+  <entry>
+    <title>English Greetings - What&#39;s up? How are you? How&#39;s it going</title>
+    <url>/2020/06/07/greeting/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>问候场景中比较常用开场问候有</p>
+<blockquote>
+<ul>
+<li>What’s up?</li>
+<li>How are you?</li>
+<li>How’s it going?</li>
+</ul>
+</blockquote>
+<p>对于这些问候，你知道该怎么回答吗？</p>
+<h2 id="1-How-are-you"><a href="#1-How-are-you" class="headerlink" title="1. How are you?"></a>1. How are you?</h2><p>这个也可以说How are you doing?</p>
+<blockquote>
+<p>可以回答 I’m fine / I’m good / I’m alright / I’m okay / I’m not bad</p>
+</blockquote>
+<h2 id="2-How’s-it-going"><a href="#2-How’s-it-going" class="headerlink" title="2. How’s it going?"></a>2. How’s it going?</h2><p>这里的it表示的是your life，所以这里也可以说How’s your life going? </p>
+<blockquote>
+<p>回答的时候主语不能为I，而是it， It’s fine / It’s good / It’s alright / It’s okay / It’s not bad</p>
+</blockquote>
+<p>也可以用How are things?</p>
+<blockquote>
+<p>由于things使用了复数，回答的时候也需要用复数，They’re fine / They’re good / They’re alright / They’re okay / They’re not bad</p>
+</blockquote>
+<p>如果两人后很长时间没见了，可以说How have you been? 或How’s life?</p>
+<blockquote>
+<p>A: How have you been?<br>B: I’ve been good</p>
+<p>A: How’s life<br>B: It’s good</p>
+</blockquote>
+<p>Tips: 如果有人问你类似的问题，可以省略主语，直接使用形容词，比如</p>
+<blockquote>
+<p>A: How are you?<br>B: Good</p>
+<p>A: How’s it going?<br>B: Alright</p>
+<p>A: How have you been?<br>B: Not bad</p>
+</blockquote>
+<h2 id="3-What’s-up"><a href="#3-What’s-up" class="headerlink" title="3. What’s up?"></a>3. What’s up?</h2><p>What’s up常常简单表示为wassup或直接是sup，有点类似What are you doing? 所以不能只能使用形容词来回答，你可以直接使用动作来回答，比如</p>
+<blockquote>
+<ul>
+<li>I’m studing/I’m eating lunch</li>
+<li>Not much/Not too much/Nothing special //没啥特别的是，或你在做些不重要的事情，这个是比较common的回答</li>
+</ul>
+</blockquote>
+<p>比较类似的说法还有What’s going on或是What’s happening? 回答也是跟What’s up类似的</p>
+<blockquote>
+<ul>
+<li>I’m cleaning my dirty shoes</li>
+<li>Not much</li>
+</ul>
+</blockquote>
+<p>还有种说法What’s new? 这种说法更general，它表示What’s new in your life? 所以你可以回答你最近发生的一些事情</p>
+<blockquote>
+<ul>
+<li>I had a test yesterday</li>
+<li>I’m taking a vacation soon</li>
+<li>Not much</li>
+</ul>
+</blockquote>
+<h2 id="4-Summary"><a href="#4-Summary" class="headerlink" title="4. Summary"></a>4. Summary</h2><p>总结来说，如果问的时候使用的是How，回答就使用形容词。</p>
+<blockquote>
+<p>How _ ?<br>(形容词回答)</p>
+<p>A: How are you doing?<br>B: Great</p>
+<p>A: How’s it going?<br>B: Alright</p>
+<p>A: How’s life?<br>B: Not bad</p>
+</blockquote>
+<p>如果问的时候使用的是What，就用动作回答。</p>
+<blockquote>
+<p>What _ ?<br>(动作回答)</p>
+<p>A: What’s up?<br>B: I’m going shoping.</p>
+<p>A: What’s going onn?<br>B: I’m going home</p>
+<p>活着直接回答Not much</p>
+</blockquote>
+<p>可以查看如下相关视频，<a href="https://www.youtube.com/watch?v=TRp8y3vyHfY" target="_blank" rel="noopener">视频来源</a></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"https://video.wurendong.com/english/greeting/greeting1.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+]]></content>
+      <categories>
+        <category>English</category>
+        <category>Speaking</category>
+        <category>Greeting</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+        <tag>Speaking</tag>
+        <tag>Greeting</tag>
+      </tags>
+  </entry>
 </search>
