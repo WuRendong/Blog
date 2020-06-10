@@ -58,6 +58,27 @@ $(function () {
   })
 
   /**
+   * 预加载图片
+   */
+  function preloadImg(url,callback){
+    console.log("preload image " + url);
+    img = new Image();
+    img.onload = function(){
+      img.onload = null;
+      callback(img);
+    }
+    img.onerror = function(err) {
+      console.log("load image error " + url)
+    }
+    img.src=url;
+  }
+
+  function updateBgImage(img) {
+    console.log("image have been loaded " + img)
+    $('#nav').css('background-image', `url(${img.src})`)
+  }
+
+  /**
    * windows時 設置主頁top_img 為 fixed
    */
   if (GLOBAL_CONFIG_SITE.isHome) {
@@ -69,9 +90,9 @@ $(function () {
     $.get("https://api.unsplash.com/users/aaronwu/likes?client_id=cf373c68e78aa8e596587c2fc4cd7598f08b0f16d99a92a15fcb9b11f52e8b27", function(data){
       console.log(JSON.stringify(data))
       var result = JSON.parse(JSON.stringify(data))
-      console.log(result[0].urls.regular)
-      $('#nav').css('background-image', `url(${result[0].urls.regular})`)
+      preloadImg(result[0].urls.regular, updateBgImage)
     })
+
   }
 
   /**
